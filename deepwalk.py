@@ -262,7 +262,7 @@ def main():
             plt.title("K-means Clustering of Latent Embeddings")
             plt.xlabel("Vector Feature 1")
             plt.ylabel("Vector Feature 2")
-            plt.savefig("plots/twitch_clustering2")
+            plt.savefig("plots/twitch_clustering3")
             print("Done! See plots/twitch_clustering2.png for results.")
 
 
