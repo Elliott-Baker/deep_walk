@@ -18,9 +18,11 @@ The first way to run our code is to use the deepwalk.py file directly. In the co
 
     python3 deepwalk.py [graph name] [embedding size] [walks/vertex] [walk length]
 
-The second way to run our code is to run a shell script that iteratively runs the deepwalk algorithm, varying embedding size with each run. This script uses the karate graph. To run this, type:
+The second way to run our code is to run shell scripts that iteratively run the deepwalk algorithm, varying hyperparameters with each run. These scripts use the karate graph. To run this, type on of the three commands:
 
     ./karate_tune_embed_size.sh
+    ./karate_tune_walk_length.sh
+    ./karate_tune_walks_per_vertex.sh
 
 #### **3. Results**
 
@@ -28,7 +30,7 @@ After training deepwalk, we obtain a vector with latent embeddings. Using this v
 
 ![output](plots/karate_output.png)
 
-The two scatter plots below show the predicted labels and actual labels for the trained model.
+The two scatter plots below show the predicted labels and actual labels for the trained model using karate graph.
 ![predictions](plots/predicted_labels.png) ![actual](plots/actual_labels.png)
 
 The plot below shows an example of a random walk starting at vertex 0 in the karate graph.
@@ -37,14 +39,25 @@ The plot below shows an example of a random walk starting at vertex 0 in the kar
 The plot below shows the karate graph with colors as labels.
 ![karategraph](plots/graph.png)
 
-The plot below shows the results of deepwalk when embedding size is varied from 10-1000.
-![varied embeddings](plots/karate_graph_metrics.png)
+The plot below shows the results of deepwalk when embedding size is varied from 10-1000 on the karate graph.
+![varied embeddings](plots/karate_graph_embed_size.png)
 
-The plot below shows the result of deepwalk when walk length is varied from 10-400
-![walk length](plots/karate_graph_metrics1.png)
+The plot below shows the result of deepwalk when walk length is varied from 10-400 on the karate graph.
+![walk length](plots/karate_graph_walk_length.png)
 
-The plot below shows the result of deepwalk when walks per vertex is varied from 2-25
-![walks per](plots/karate_graph_metrics2.png)
+The plot below shows the result of deepwalk when walks per vertex is varied from 2-25 on the karate graph.
+![walks per](plots/karate_graph_walks_per_vertex.png)
+
+The plot below shows the clusters that are found after running deepwalk on a partition of the Twitch graph dataset with the following hyperparameters: window size=2, embedding size=2, walks per vertex=100, walk length=10
+
+![twitch clusters 0](plots/twitch_clustering.png)
+
+The plot below shows the clusters that are found after running deepwalk on a partition of the Twitch graph dataset with the following hyperparameters: window size=2, embedding size=2, walks per vertex = 10, walk length=100
+
+![twitch clusters 1](plots/twitch_clustering1.png)
+
+walk length=1000
+![twitch clusters 2](plots/twitch_clustering2.png)
 
 #### **4. Analysis**
 

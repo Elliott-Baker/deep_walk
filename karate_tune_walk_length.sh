@@ -9,5 +9,5 @@ done
 echo Done!
 echo ------------------------------------------------------
 echo Plotting results...
-python3 read_metrics.py karate_tune_walk_length_metrics.txt
-echo Done! See plots/karate_graph_metrics1.png for results.
+python3 read_metrics.py karate_tune_walk_length_metrics.txt walklength
+echo Done! See plots/karate_graph_walk_length.png for results.

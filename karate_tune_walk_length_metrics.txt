@@ -1,205 +1,25 @@
 Embedding Size: 10
 Walk length: 10
 Walks per vertex: 10
-Accuracy: 0.6470588235294118
-Precision: 0.6190476190476191
-Recall: 0.7647058823529411
-Macro F-1 Score: 0.6421052631578947
-Micro F-1 Score: 0.6470588235294118
-
-
-Embedding Size: 10
-Walk length: 20
-Walks per vertex: 10
-Accuracy: 0.5882352941176471
-Precision: 0.6153846153846154
-Recall: 0.47058823529411764
-Macro F-1 Score: 0.5824561403508772
-Micro F-1 Score: 0.5882352941176471
-
-
-Embedding Size: 10
-Walk length: 30
-Walks per vertex: 10
-Accuracy: 0.7352941176470589
-Precision: 0.75
-Recall: 0.7058823529411765
-Macro F-1 Score: 0.735064935064935
-Micro F-1 Score: 0.735294117647059
-
-
-Embedding Size: 10
-Walk length: 40
-Walks per vertex: 10
 Accuracy: 0.7058823529411765
-Precision: 0.6842105263157895
-Recall: 0.7647058823529411
+Precision: 0.7333333333333333
+Recall: 0.6470588235294118
 Macro F-1 Score: 0.7048611111111112
 Micro F-1 Score: 0.7058823529411765
 
 
 Embedding Size: 10
-Walk length: 50
+Walk length: 20
 Walks per vertex: 10
-Accuracy: 0.6764705882352942
-Precision: 0.65
-Recall: 0.7647058823529411
-Macro F-1 Score: 0.6739319965126417
-Micro F-1 Score: 0.6764705882352942
-
-
-Embedding Size: 10
-Walk length: 60
-Walks per vertex: 10
-Accuracy: 0.7352941176470589
-Precision: 0.7222222222222222
-Recall: 0.7647058823529411
-Macro F-1 Score: 0.735064935064935
-Micro F-1 Score: 0.735294117647059
-
-
-Embedding Size: 10
-Walk length: 70
-Walks per vertex: 10
-Accuracy: 0.7352941176470589
-Precision: 0.7222222222222222
-Recall: 0.7647058823529411
-Macro F-1 Score: 0.735064935064935
-Micro F-1 Score: 0.735294117647059
-
-
-Embedding Size: 10
-Walk length: 80
-Walks per vertex: 10
-Accuracy: 0.8529411764705882
-Precision: 0.875
-Recall: 0.8235294117647058
-Macro F-1 Score: 0.8528138528138528
-Micro F-1 Score: 0.8529411764705882
-
-
-Embedding Size: 10
-Walk length: 90
-Walks per vertex: 10
-Accuracy: 0.6470588235294118
-Precision: 0.6470588235294118
+Accuracy: 0.6176470588235294
+Precision: 0.6111111111111112
 Recall: 0.6470588235294118
-Macro F-1 Score: 0.6470588235294118
-Micro F-1 Score: 0.6470588235294118
+Macro F-1 Score: 0.6173160173160174
+Micro F-1 Score: 0.6176470588235294
 
 
 Embedding Size: 10
-Walk length: 100
-Walks per vertex: 10
-Accuracy: 0.7352941176470589
-Precision: 0.7222222222222222
-Recall: 0.7647058823529411
-Macro F-1 Score: 0.735064935064935
-Micro F-1 Score: 0.735294117647059
-
-
-Embedding Size: 10
-Walk length: 110
-Walks per vertex: 10
-Accuracy: 0.7647058823529411
-Precision: 0.7647058823529411
-Recall: 0.7647058823529411
-Macro F-1 Score: 0.7647058823529412
-Micro F-1 Score: 0.7647058823529412
-
-
-Embedding Size: 10
-Walk length: 120
-Walks per vertex: 10
-Accuracy: 0.7647058823529411
-Precision: 0.8
-Recall: 0.7058823529411765
-Macro F-1 Score: 0.763888888888889
-Micro F-1 Score: 0.7647058823529412
-
-
-Embedding Size: 10
-Walk length: 130
-Walks per vertex: 10
-Accuracy: 0.6470588235294118
-Precision: 0.6190476190476191
-Recall: 0.7647058823529411
-Macro F-1 Score: 0.6421052631578947
-Micro F-1 Score: 0.6470588235294118
-
-
-Embedding Size: 10
-Walk length: 140
-Walks per vertex: 10
-Accuracy: 0.8235294117647058
-Precision: 0.8666666666666667
-Recall: 0.7647058823529411
-Macro F-1 Score: 0.8229166666666666
-Micro F-1 Score: 0.8235294117647058
-
-
-Embedding Size: 10
-Walk length: 150
-Walks per vertex: 10
-Accuracy: 0.8235294117647058
-Precision: 0.8235294117647058
-Recall: 0.8235294117647058
-Macro F-1 Score: 0.8235294117647058
-Micro F-1 Score: 0.8235294117647058
-
-
-Embedding Size: 10
-Walk length: 160
-Walks per vertex: 10
-Accuracy: 0.7352941176470589
-Precision: 0.7222222222222222
-Recall: 0.7647058823529411
-Macro F-1 Score: 0.735064935064935
-Micro F-1 Score: 0.735294117647059
-
-
-Embedding Size: 10
-Walk length: 170
-Walks per vertex: 10
-Accuracy: 0.7647058823529411
-Precision: 0.8461538461538461
-Recall: 0.6470588235294118
-Macro F-1 Score: 0.7614035087719297
-Micro F-1 Score: 0.7647058823529412
-
-
-Embedding Size: 10
-Walk length: 180
-Walks per vertex: 10
-Accuracy: 0.7647058823529411
-Precision: 0.8
-Recall: 0.7058823529411765
-Macro F-1 Score: 0.763888888888889
-Micro F-1 Score: 0.7647058823529412
-
-
-Embedding Size: 10
-Walk length: 190
-Walks per vertex: 10
-Accuracy: 0.7352941176470589
-Precision: 0.7
-Recall: 0.8235294117647058
-Macro F-1 Score: 0.7332170880557977
-Micro F-1 Score: 0.735294117647059
-
-
-Embedding Size: 10
-Walk length: 200
-Walks per vertex: 10
-Accuracy: 0.7647058823529411
-Precision: 0.7647058823529411
-Recall: 0.7647058823529411
-Macro F-1 Score: 0.7647058823529412
-Micro F-1 Score: 0.7647058823529412
-
-
-Embedding Size: 10
-Walk length: 210
+Walk length: 30
 Walks per vertex: 10
 Accuracy: 0.7941176470588235
 Precision: 0.8125
@@ -209,7 +29,117 @@ Micro F-1 Score: 0.7941176470588235
 
 
 Embedding Size: 10
-Walk length: 220
+Walk length: 40
+Walks per vertex: 10
+Accuracy: 0.7058823529411765
+Precision: 0.7333333333333333
+Recall: 0.6470588235294118
+Macro F-1 Score: 0.7048611111111112
+Micro F-1 Score: 0.7058823529411765
+
+
+Embedding Size: 10
+Walk length: 50
+Walks per vertex: 10
+Accuracy: 0.7647058823529411
+Precision: 0.7647058823529411
+Recall: 0.7647058823529411
+Macro F-1 Score: 0.7647058823529412
+Micro F-1 Score: 0.7647058823529412
+
+
+Embedding Size: 10
+Walk length: 60
+Walks per vertex: 10
+Accuracy: 0.5588235294117647
+Precision: 0.5625
+Recall: 0.5294117647058824
+Macro F-1 Score: 0.5584415584415585
+Micro F-1 Score: 0.5588235294117647
+
+
+Embedding Size: 10
+Walk length: 70
+Walks per vertex: 10
+Accuracy: 0.9117647058823529
+Precision: 0.9375
+Recall: 0.8823529411764706
+Macro F-1 Score: 0.9116883116883117
+Micro F-1 Score: 0.9117647058823528
+
+
+Embedding Size: 10
+Walk length: 80
+Walks per vertex: 10
+Accuracy: 0.7058823529411765
+Precision: 0.8888888888888888
+Recall: 0.47058823529411764
+Macro F-1 Score: 0.6886446886446886
+Micro F-1 Score: 0.7058823529411765
+
+
+Embedding Size: 10
+Walk length: 90
+Walks per vertex: 10
+Accuracy: 0.7647058823529411
+Precision: 0.8
+Recall: 0.7058823529411765
+Macro F-1 Score: 0.763888888888889
+Micro F-1 Score: 0.7647058823529412
+
+
+Embedding Size: 10
+Walk length: 100
+Walks per vertex: 10
+Accuracy: 0.6764705882352942
+Precision: 0.6666666666666666
+Recall: 0.7058823529411765
+Macro F-1 Score: 0.6761904761904762
+Micro F-1 Score: 0.6764705882352942
+
+
+Embedding Size: 10
+Walk length: 110
+Walks per vertex: 10
+Accuracy: 0.7352941176470589
+Precision: 0.75
+Recall: 0.7058823529411765
+Macro F-1 Score: 0.735064935064935
+Micro F-1 Score: 0.735294117647059
+
+
+Embedding Size: 10
+Walk length: 120
+Walks per vertex: 10
+Accuracy: 0.6176470588235294
+Precision: 0.625
+Recall: 0.5882352941176471
+Macro F-1 Score: 0.6173160173160174
+Micro F-1 Score: 0.6176470588235294
+
+
+Embedding Size: 10
+Walk length: 130
+Walks per vertex: 10
+Accuracy: 0.8529411764705882
+Precision: 0.9285714285714286
+Recall: 0.7647058823529411
+Macro F-1 Score: 0.8517872711421098
+Micro F-1 Score: 0.8529411764705882
+
+
+Embedding Size: 10
+Walk length: 140
+Walks per vertex: 10
+Accuracy: 0.7647058823529411
+Precision: 0.7368421052631579
+Recall: 0.8235294117647058
+Macro F-1 Score: 0.763888888888889
+Micro F-1 Score: 0.7647058823529412
+
+
+Embedding Size: 10
+Walk length: 150
 Walks per vertex: 10
 Accuracy: 0.7941176470588235
 Precision: 0.8571428571428571
@@ -219,97 +149,17 @@ Micro F-1 Score: 0.7941176470588235
 
 
 Embedding Size: 10
-Walk length: 230
-Walks per vertex: 10
-Accuracy: 0.6176470588235294
-Precision: 0.6428571428571429
-Recall: 0.5294117647058824
-Macro F-1 Score: 0.6146469049694856
-Micro F-1 Score: 0.6176470588235294
-
-
-Embedding Size: 10
-Walk length: 240
-Walks per vertex: 10
-Accuracy: 0.6764705882352942
-Precision: 0.6666666666666666
-Recall: 0.7058823529411765
-Macro F-1 Score: 0.6761904761904762
-Micro F-1 Score: 0.6764705882352942
-
-
-Embedding Size: 10
-Walk length: 250
-Walks per vertex: 10
-Accuracy: 0.8235294117647058
-Precision: 0.9230769230769231
-Recall: 0.7058823529411765
-Macro F-1 Score: 0.8210526315789475
-Micro F-1 Score: 0.8235294117647058
-
-
-Embedding Size: 10
-Walk length: 260
-Walks per vertex: 10
-Accuracy: 0.6176470588235294
-Precision: 0.6428571428571429
-Recall: 0.5294117647058824
-Macro F-1 Score: 0.6146469049694856
-Micro F-1 Score: 0.6176470588235294
-
-
-Embedding Size: 10
-Walk length: 270
+Walk length: 160
 Walks per vertex: 10
 Accuracy: 0.7647058823529411
-Precision: 0.7647058823529411
-Recall: 0.7647058823529411
-Macro F-1 Score: 0.7647058823529412
+Precision: 0.8
+Recall: 0.7058823529411765
+Macro F-1 Score: 0.763888888888889
 Micro F-1 Score: 0.7647058823529412
 
 
 Embedding Size: 10
-Walk length: 280
-Walks per vertex: 10
-Accuracy: 0.7058823529411765
-Precision: 0.7692307692307693
-Recall: 0.5882352941176471
-Macro F-1 Score: 0.7017543859649122
-Micro F-1 Score: 0.7058823529411765
-
-
-Embedding Size: 10
-Walk length: 290
-Walks per vertex: 10
-Accuracy: 0.6176470588235294
-Precision: 0.6
-Recall: 0.7058823529411765
-Macro F-1 Score: 0.6146469049694856
-Micro F-1 Score: 0.6176470588235294
-
-
-Embedding Size: 10
-Walk length: 300
-Walks per vertex: 10
-Accuracy: 0.6764705882352942
-Precision: 0.6666666666666666
-Recall: 0.7058823529411765
-Macro F-1 Score: 0.6761904761904762
-Micro F-1 Score: 0.6764705882352942
-
-
-Embedding Size: 10
-Walk length: 310
-Walks per vertex: 10
-Accuracy: 0.7352941176470589
-Precision: 0.75
-Recall: 0.7058823529411765
-Macro F-1 Score: 0.735064935064935
-Micro F-1 Score: 0.735294117647059
-
-
-Embedding Size: 10
-Walk length: 320
+Walk length: 170
 Walks per vertex: 10
 Accuracy: 0.7941176470588235
 Precision: 0.8125
@@ -319,37 +169,17 @@ Micro F-1 Score: 0.7941176470588235
 
 
 Embedding Size: 10
-Walk length: 330
+Walk length: 180
 Walks per vertex: 10
-Accuracy: 0.7941176470588235
-Precision: 0.7777777777777778
+Accuracy: 0.8529411764705882
+Precision: 0.875
 Recall: 0.8235294117647058
-Macro F-1 Score: 0.793939393939394
-Micro F-1 Score: 0.7941176470588235
+Macro F-1 Score: 0.8528138528138528
+Micro F-1 Score: 0.8529411764705882
 
 
 Embedding Size: 10
-Walk length: 340
-Walks per vertex: 10
-Accuracy: 0.7058823529411765
-Precision: 0.6842105263157895
-Recall: 0.7647058823529411
-Macro F-1 Score: 0.7048611111111112
-Micro F-1 Score: 0.7058823529411765
-
-
-Embedding Size: 10
-Walk length: 350
-Walks per vertex: 10
-Accuracy: 0.7941176470588235
-Precision: 0.7777777777777778
-Recall: 0.8235294117647058
-Macro F-1 Score: 0.793939393939394
-Micro F-1 Score: 0.7941176470588235
-
-
-Embedding Size: 10
-Walk length: 360
+Walk length: 190
 Walks per vertex: 10
 Accuracy: 0.7352941176470589
 Precision: 0.7222222222222222
@@ -359,7 +189,97 @@ Micro F-1 Score: 0.735294117647059
 
 
 Embedding Size: 10
-Walk length: 370
+Walk length: 200
+Walks per vertex: 10
+Accuracy: 0.8823529411764706
+Precision: 1.0
+Recall: 0.7647058823529411
+Macro F-1 Score: 0.8807017543859649
+Micro F-1 Score: 0.8823529411764706
+
+
+Embedding Size: 10
+Walk length: 210
+Walks per vertex: 10
+Accuracy: 0.8235294117647058
+Precision: 0.8235294117647058
+Recall: 0.8235294117647058
+Macro F-1 Score: 0.8235294117647058
+Micro F-1 Score: 0.8235294117647058
+
+
+Embedding Size: 10
+Walk length: 220
+Walks per vertex: 10
+Accuracy: 0.7941176470588235
+Precision: 0.8125
+Recall: 0.7647058823529411
+Macro F-1 Score: 0.793939393939394
+Micro F-1 Score: 0.7941176470588235
+
+
+Embedding Size: 10
+Walk length: 230
+Walks per vertex: 10
+Accuracy: 0.8823529411764706
+Precision: 0.9333333333333333
+Recall: 0.8235294117647058
+Macro F-1 Score: 0.8819444444444444
+Micro F-1 Score: 0.8823529411764706
+
+
+Embedding Size: 10
+Walk length: 240
+Walks per vertex: 10
+Accuracy: 0.8823529411764706
+Precision: 0.9333333333333333
+Recall: 0.8235294117647058
+Macro F-1 Score: 0.8819444444444444
+Micro F-1 Score: 0.8823529411764706
+
+
+Embedding Size: 10
+Walk length: 250
+Walks per vertex: 10
+Accuracy: 0.7647058823529411
+Precision: 0.7368421052631579
+Recall: 0.8235294117647058
+Macro F-1 Score: 0.763888888888889
+Micro F-1 Score: 0.7647058823529412
+
+
+Embedding Size: 10
+Walk length: 260
+Walks per vertex: 10
+Accuracy: 0.8235294117647058
+Precision: 0.8666666666666667
+Recall: 0.7647058823529411
+Macro F-1 Score: 0.8229166666666666
+Micro F-1 Score: 0.8235294117647058
+
+
+Embedding Size: 10
+Walk length: 270
+Walks per vertex: 10
+Accuracy: 0.7058823529411765
+Precision: 0.7333333333333333
+Recall: 0.6470588235294118
+Macro F-1 Score: 0.7048611111111112
+Micro F-1 Score: 0.7058823529411765
+
+
+Embedding Size: 10
+Walk length: 280
+Walks per vertex: 10
+Accuracy: 0.6764705882352942
+Precision: 0.6666666666666666
+Recall: 0.7058823529411765
+Macro F-1 Score: 0.6761904761904762
+Micro F-1 Score: 0.6764705882352942
+
+
+Embedding Size: 10
+Walk length: 290
 Walks per vertex: 10
 Accuracy: 0.7647058823529411
 Precision: 0.7647058823529411
@@ -369,17 +289,17 @@ Micro F-1 Score: 0.7647058823529412
 
 
 Embedding Size: 10
-Walk length: 380
+Walk length: 300
 Walks per vertex: 10
 Accuracy: 0.7058823529411765
-Precision: 0.7058823529411765
-Recall: 0.7058823529411765
-Macro F-1 Score: 0.7058823529411765
+Precision: 0.7333333333333333
+Recall: 0.6470588235294118
+Macro F-1 Score: 0.7048611111111112
 Micro F-1 Score: 0.7058823529411765
 
 
 Embedding Size: 10
-Walk length: 390
+Walk length: 310
 Walks per vertex: 10
 Accuracy: 0.7352941176470589
 Precision: 0.7857142857142857
@@ -389,12 +309,92 @@ Micro F-1 Score: 0.735294117647059
 
 
 Embedding Size: 10
-Walk length: 400
+Walk length: 320
+Walks per vertex: 10
+Accuracy: 0.8235294117647058
+Precision: 0.7894736842105263
+Recall: 0.8823529411764706
+Macro F-1 Score: 0.8229166666666666
+Micro F-1 Score: 0.8235294117647058
+
+
+Embedding Size: 10
+Walk length: 330
+Walks per vertex: 10
+Accuracy: 0.7058823529411765
+Precision: 0.7333333333333333
+Recall: 0.6470588235294118
+Macro F-1 Score: 0.7048611111111112
+Micro F-1 Score: 0.7058823529411765
+
+
+Embedding Size: 10
+Walk length: 340
+Walks per vertex: 10
+Accuracy: 0.7352941176470589
+Precision: 0.75
+Recall: 0.7058823529411765
+Macro F-1 Score: 0.735064935064935
+Micro F-1 Score: 0.735294117647059
+
+
+Embedding Size: 10
+Walk length: 350
+Walks per vertex: 10
+Accuracy: 0.7058823529411765
+Precision: 0.7058823529411765
+Recall: 0.7058823529411765
+Macro F-1 Score: 0.7058823529411765
+Micro F-1 Score: 0.7058823529411765
+
+
+Embedding Size: 10
+Walk length: 360
 Walks per vertex: 10
 Accuracy: 0.7941176470588235
-Precision: 0.75
-Recall: 0.8823529411764706
-Macro F-1 Score: 0.7925021795989537
+Precision: 0.8125
+Recall: 0.7647058823529411
+Macro F-1 Score: 0.793939393939394
 Micro F-1 Score: 0.7941176470588235
+
+
+Embedding Size: 10
+Walk length: 370
+Walks per vertex: 10
+Accuracy: 0.8235294117647058
+Precision: 0.8235294117647058
+Recall: 0.8235294117647058
+Macro F-1 Score: 0.8235294117647058
+Micro F-1 Score: 0.8235294117647058
+
+
+Embedding Size: 10
+Walk length: 380
+Walks per vertex: 10
+Accuracy: 0.7941176470588235
+Precision: 0.7777777777777778
+Recall: 0.8235294117647058
+Macro F-1 Score: 0.793939393939394
+Micro F-1 Score: 0.7941176470588235
+
+
+Embedding Size: 10
+Walk length: 390
+Walks per vertex: 10
+Accuracy: 0.5882352941176471
+Precision: 0.5714285714285714
+Recall: 0.7058823529411765
+Macro F-1 Score: 0.5824561403508772
+Micro F-1 Score: 0.5882352941176471
+
+
+Embedding Size: 10
+Walk length: 400
+Walks per vertex: 10
+Accuracy: 0.7352941176470589
+Precision: 0.7222222222222222
+Recall: 0.7647058823529411
+Macro F-1 Score: 0.735064935064935
+Micro F-1 Score: 0.735294117647059
 
 

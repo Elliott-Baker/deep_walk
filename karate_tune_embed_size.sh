@@ -9,6 +9,6 @@ done
 echo Done!
 echo ------------------------------------------------------
 echo Plotting results...
-python3 read_metrics.py karate_tune_embed_size_metrics.txt
-echo Done! See plots/karate_tune_embed_size_metrics.png for results.
+python3 read_metrics.py karate_tune_embed_size_metrics.txt embeddingsize
+echo Done! See plots/karate_graph_embed_size.png for results.
 

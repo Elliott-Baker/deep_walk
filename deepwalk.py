@@ -3,12 +3,10 @@ import networkx as nx
 import random
 import matplotlib.pyplot as plt
 import numpy as np
-import tempfile
 from gensim.models import Word2Vec
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import precision_score, recall_score, f1_score
-
-temporary_filepath = ""
+from sklearn.cluster import KMeans
 
 
 # Generates random walks then trains the skigram model
@@ -50,6 +48,10 @@ def random_walk(graph, v, walk_length):
 # Chooses the next vertex in the random walk
 def choose_random_vertex(graph, vertex):
     neighbors = list(graph.neighbors(vertex))
+    if len(neighbors) == 0:
+        return vertex
+    if len(neighbors) == 1:
+        return neighbors[0]
     random_index = random.randint(0, len(neighbors) - 1)
     random_vertex = neighbors[random_index]
     return random_vertex
@@ -85,13 +87,6 @@ def draw_karate_graph(graph):
     plt.savefig("plots/graph")
 
 
-# Draws the twitch graph in matplotlib
-def draw_twitch_graph(graph):
-    pos = nx.spring_layout(graph)
-    nx.draw(graph, pos, with_labels=True, node_color=node_colors)
-    plt.savefig("plots/twitch_graph")
-
-
 # Plots the graph with the actual labels as colors
 def draw_actual_labels(graph, model):
     for i in range(len(graph.nodes)):
@@ -125,15 +120,54 @@ def read_graph(file_name):
     with open(file_name, "r") as f:
         G = nx.Graph()
         isFirst = True
-        even = 0
+        every_ten = 0
         for line in f:
+            every_ten += 1
             if isFirst:
                 isFirst = False
                 continue
-            if even % 2 == 0:
+            if every_ten % 100 == 0:
                 line = line.strip().split(",")
                 G.add_edge(int(line[0]), int(line[1]))
         return G
+
+
+def reduce_graph(graph, target_nodes_ratio, random_seed=None):
+    # Make a copy of the original graph to avoid modifying it
+    reduced_graph = graph.copy()
+
+    # Set a random seed if provided
+    if random_seed is not None:
+        random.seed(random_seed)
+
+    # Calculate the target number of nodes to keep
+    target_nodes = int(target_nodes_ratio * len(reduced_graph.nodes))
+
+    # Remove all zero-degree nodes
+    degrees = dict(reduced_graph.degree())
+    nodes_to_remove = [node for node, degree in degrees.items() if degree == 0]
+    while nodes_to_remove != []:
+        reduced_graph.remove_node(nodes_to_remove[0])
+        del nodes_to_remove[0]
+
+    # Continue removing nodes until the target is reached
+    while len(reduced_graph.nodes) > target_nodes:
+        # Get nodes with degree 1 (or any other criteria)
+        low_degree_nodes = [
+            node for node, degree in reduced_graph.degree() if degree <= 10
+        ]
+
+        # If there are no nodes with degree 1, break the loop
+        if not low_degree_nodes:
+            break
+
+        # Randomly choose a node with low degree to remove
+        node_to_remove = random.choice(low_degree_nodes)
+
+        # Remove the chosen node and its incident edges
+        reduced_graph.remove_node(node_to_remove)
+
+    return reduced_graph
 
 
 def logistic_regression(X, y):
@@ -207,7 +241,10 @@ def main():
 
         if graph_name == "twitch":
             G = read_graph("large_twitch_edges.csv")
+            G = reduce_graph(G, 0.2, random_seed=0)
             print("Training Deepwalk with Twitch user data...")
+            print("Number of nodes in graph: {}".format(len(G.nodes)))
+            print("Number of edges in graph: {}".format(len(G.edges)))
             embeddings = deepwalk(
                 graph=G,
                 window_size=window_size,
@@ -216,7 +253,6 @@ def main():
                 walk_length=walk_length,
             )
 
-            draw_twitch_graph(G)
             vecs = embeddings.wv.vectors
             kmeans = KMeans(n_clusters=3, random_state=0, n_init="auto").fit(vecs)
             centers = kmeans.cluster_centers_
@@ -226,7 +262,8 @@ def main():
             plt.title("K-means Clustering of Latent Embeddings")
             plt.xlabel("Vector Feature 1")
             plt.ylabel("Vector Feature 2")
-            plt.savefig("plots/twitch_clustering")
+            plt.savefig("plots/twitch_clustering2")
+            print("Done! See plots/twitch_clustering2.png for results.")
 
 
 if __name__ == "__main__":
